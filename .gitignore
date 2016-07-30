@@ -1,0 +1,11 @@
+#!/bin/bash
+#my first script on terminal
+
+for i in `seq 1 5`
+do
+	for j in `seq $i 5`
+	do
+	printf "*"
+	done
+echo 
+done
